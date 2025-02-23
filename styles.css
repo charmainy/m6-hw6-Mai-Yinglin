@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+body {
+    background-image: url(./pics/pink\ background.jpg)
+}
+
+header {
+    background-color: #5a7684;
+    color: white;
+    padding: 20px;
+    border-bottom: 2px solid darkblue;
+}
+
+header .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3rem;
+    margin: 0;
+    padding: 5px 10px;
+    background-color: #2c3e50;
+    border-radius: 5px;
+}
+
+header nav a {
+    color: white;
+    margin-left: 15px;
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+
+
+.content-container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin: 20px;
+    gap: 20px;
+    }
+
+main {
+    flex: 3;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: %;
+    }
+    
+
+.subheading {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2rem;
+    color: #5a7684;
+    border-bottom: 2px solid #ccc;
+}
+
+.headshot {
+    float: left;
+    margin:5px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px 0px;
+}
+
+p {
+    margin:5px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+
+aside {
+    flex: 1;
+    max-width: 250px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 20%; 
+}
+
+aside h2 {
+    font-family: 'Brush Script MT', cursive;
+    color: #5a7684;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+aside img {
+    width: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px 0px ;
+}
+
+
+footer {
+    background-color: #5a7684;
+    color: white;
+    margin-top: 20px;
+    border-top: 2px solid darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
